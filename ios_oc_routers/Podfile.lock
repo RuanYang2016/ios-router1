@@ -1,0 +1,16 @@
+PODS:
+  - Bifrost (1.0.0)
+
+DEPENDENCIES:
+  - Bifrost (~> 1.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Bifrost
+
+SPEC CHECKSUMS:
+  Bifrost: 2eb95b8054a8fe34845dd6cdd9b4af492f58f203
+
+PODFILE CHECKSUM: 13ceebe747fcf9eef51e837ce0da73e827c956e4
+
+COCOAPODS: 1.11.2

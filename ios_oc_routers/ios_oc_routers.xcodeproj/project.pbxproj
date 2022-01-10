@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		025237D1382315750D44EC6B /* Pods_ios_oc_routers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660BBF7677509541154D68F2 /* Pods_ios_oc_routers.framework */; };
 		84C340D7278BE84D0049B8D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C340D6278BE84D0049B8D3 /* AppDelegate.m */; };
 		84C340DA278BE84D0049B8D3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C340D9278BE84D0049B8D3 /* SceneDelegate.m */; };
 		84C340DD278BE84D0049B8D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C340DC278BE84D0049B8D3 /* ViewController.m */; };
@@ -17,6 +18,10 @@
 		84C340F2278BE8510049B8D3 /* ios_oc_routersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C340F1278BE8510049B8D3 /* ios_oc_routersTests.m */; };
 		84C340FC278BE8510049B8D3 /* ios_oc_routersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C340FB278BE8510049B8D3 /* ios_oc_routersUITests.m */; };
 		84C340FE278BE8510049B8D3 /* ios_oc_routersUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C340FD278BE8510049B8D3 /* ios_oc_routersUITestsLaunchTests.m */; };
+		84F7E92E278C0FD100A65250 /* RouterItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F7E92C278C0FD100A65250 /* RouterItemCollectionViewCell.m */; };
+		84F7E92F278C0FD100A65250 /* RouterItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F7E92D278C0FD100A65250 /* RouterItemCollectionViewCell.xib */; };
+		ACBAE1F1548DED1F987A8F9D /* Pods_ios_oc_routersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9215F3284C29F179561EA7 /* Pods_ios_oc_routersTests.framework */; };
+		B67C7A48F5BA355CC1CB7852 /* Pods_ios_oc_routers_ios_oc_routersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BF95985F6A82BCC2E2D958 /* Pods_ios_oc_routers_ios_oc_routersUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04FD60F1A8D6E5F60668EEAC /* Pods-ios_oc_routers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_oc_routers.release.xcconfig"; path = "Target Support Files/Pods-ios_oc_routers/Pods-ios_oc_routers.release.xcconfig"; sourceTree = "<group>"; };
+		0AED61B0D016BD036C834B49 /* Pods-ios_oc_routers-ios_oc_routersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_oc_routers-ios_oc_routersUITests.release.xcconfig"; path = "Target Support Files/Pods-ios_oc_routers-ios_oc_routersUITests/Pods-ios_oc_routers-ios_oc_routersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25BF95985F6A82BCC2E2D958 /* Pods_ios_oc_routers_ios_oc_routersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_oc_routers_ios_oc_routersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31307FD6E798C1C2B7BF54FC /* Pods-ios_oc_routersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_oc_routersTests.debug.xcconfig"; path = "Target Support Files/Pods-ios_oc_routersTests/Pods-ios_oc_routersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D6FF32A41AEB1D335B78609 /* Pods-ios_oc_routersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_oc_routersTests.release.xcconfig"; path = "Target Support Files/Pods-ios_oc_routersTests/Pods-ios_oc_routersTests.release.xcconfig"; sourceTree = "<group>"; };
+		660BBF7677509541154D68F2 /* Pods_ios_oc_routers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_oc_routers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68710B59D0CBFCEA24343F11 /* Pods-ios_oc_routers-ios_oc_routersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_oc_routers-ios_oc_routersUITests.debug.xcconfig"; path = "Target Support Files/Pods-ios_oc_routers-ios_oc_routersUITests/Pods-ios_oc_routers-ios_oc_routersUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		84C340D2278BE84D0049B8D3 /* ios_oc_routers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_oc_routers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C340D5278BE84D0049B8D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84C340D6278BE84D0049B8D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +66,11 @@
 		84C340F7278BE8510049B8D3 /* ios_oc_routersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_oc_routersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C340FB278BE8510049B8D3 /* ios_oc_routersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_oc_routersUITests.m; sourceTree = "<group>"; };
 		84C340FD278BE8510049B8D3 /* ios_oc_routersUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_oc_routersUITestsLaunchTests.m; sourceTree = "<group>"; };
+		84F7E92B278C0FD100A65250 /* RouterItemCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterItemCollectionViewCell.h; sourceTree = "<group>"; };
+		84F7E92C278C0FD100A65250 /* RouterItemCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterItemCollectionViewCell.m; sourceTree = "<group>"; };
+		84F7E92D278C0FD100A65250 /* RouterItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RouterItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		9A9215F3284C29F179561EA7 /* Pods_ios_oc_routersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_oc_routersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCE9FEF9406FCA2AFD2C11C /* Pods-ios_oc_routers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_oc_routers.debug.xcconfig"; path = "Target Support Files/Pods-ios_oc_routers/Pods-ios_oc_routers.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025237D1382315750D44EC6B /* Pods_ios_oc_routers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBAE1F1548DED1F987A8F9D /* Pods_ios_oc_routersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67C7A48F5BA355CC1CB7852 /* Pods_ios_oc_routers_ios_oc_routersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7921144FE0A61835261437FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				660BBF7677509541154D68F2 /* Pods_ios_oc_routers.framework */,
+				25BF95985F6A82BCC2E2D958 /* Pods_ios_oc_routers_ios_oc_routersUITests.framework */,
+				9A9215F3284C29F179561EA7 /* Pods_ios_oc_routersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84C340C9278BE84D0049B8D3 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +118,8 @@
 				84C340F0278BE8510049B8D3 /* ios_oc_routersTests */,
 				84C340FA278BE8510049B8D3 /* ios_oc_routersUITests */,
 				84C340D3278BE84D0049B8D3 /* Products */,
+				D993E2C2EF833B5FBC4AAC60 /* Pods */,
+				7921144FE0A61835261437FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +147,9 @@
 				84C340E3278BE8510049B8D3 /* LaunchScreen.storyboard */,
 				84C340E6278BE8510049B8D3 /* Info.plist */,
 				84C340E7278BE8510049B8D3 /* main.m */,
+				84F7E92B278C0FD100A65250 /* RouterItemCollectionViewCell.h */,
+				84F7E92C278C0FD100A65250 /* RouterItemCollectionViewCell.m */,
+				84F7E92D278C0FD100A65250 /* RouterItemCollectionViewCell.xib */,
 			);
 			path = ios_oc_routers;
 			sourceTree = "<group>";
@@ -136,6 +171,19 @@
 			path = ios_oc_routersUITests;
 			sourceTree = "<group>";
 		};
+		D993E2C2EF833B5FBC4AAC60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFCE9FEF9406FCA2AFD2C11C /* Pods-ios_oc_routers.debug.xcconfig */,
+				04FD60F1A8D6E5F60668EEAC /* Pods-ios_oc_routers.release.xcconfig */,
+				68710B59D0CBFCEA24343F11 /* Pods-ios_oc_routers-ios_oc_routersUITests.debug.xcconfig */,
+				0AED61B0D016BD036C834B49 /* Pods-ios_oc_routers-ios_oc_routersUITests.release.xcconfig */,
+				31307FD6E798C1C2B7BF54FC /* Pods-ios_oc_routersTests.debug.xcconfig */,
+				3D6FF32A41AEB1D335B78609 /* Pods-ios_oc_routersTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C34101278BE8510049B8D3 /* Build configuration list for PBXNativeTarget "ios_oc_routers" */;
 			buildPhases = (
+				85750A6C5C4D25749C22871D /* [CP] Check Pods Manifest.lock */,
 				84C340CE278BE84D0049B8D3 /* Sources */,
 				84C340CF278BE84D0049B8D3 /* Frameworks */,
 				84C340D0278BE84D0049B8D3 /* Resources */,
@@ -160,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C34104278BE8510049B8D3 /* Build configuration list for PBXNativeTarget "ios_oc_routersTests" */;
 			buildPhases = (
+				66474E4472219D67872B3DF1 /* [CP] Check Pods Manifest.lock */,
 				84C340E9278BE8510049B8D3 /* Sources */,
 				84C340EA278BE8510049B8D3 /* Frameworks */,
 				84C340EB278BE8510049B8D3 /* Resources */,
+				B2A7BBD890CD4A106EC8DEE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C34107278BE8510049B8D3 /* Build configuration list for PBXNativeTarget "ios_oc_routersUITests" */;
 			buildPhases = (
+				F64854D70ADE74ECD44EFEAE /* [CP] Check Pods Manifest.lock */,
 				84C340F3278BE8510049B8D3 /* Sources */,
 				84C340F4278BE8510049B8D3 /* Frameworks */,
 				84C340F5278BE8510049B8D3 /* Resources */,
@@ -239,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F7E92F278C0FD100A65250 /* RouterItemCollectionViewCell.xib in Resources */,
 				84C340E5278BE8510049B8D3 /* LaunchScreen.storyboard in Resources */,
 				84C340E2278BE8510049B8D3 /* Assets.xcassets in Resources */,
 				84C340E0278BE84D0049B8D3 /* Main.storyboard in Resources */,
@@ -261,6 +314,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66474E4472219D67872B3DF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_oc_routersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85750A6C5C4D25749C22871D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_oc_routers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2A7BBD890CD4A106EC8DEE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_oc_routersTests/Pods-ios_oc_routersTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_oc_routersTests/Pods-ios_oc_routersTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios_oc_routersTests/Pods-ios_oc_routersTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F64854D70ADE74ECD44EFEAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_oc_routers-ios_oc_routersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84C340CE278BE84D0049B8D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,6 +409,7 @@
 				84C340D7278BE84D0049B8D3 /* AppDelegate.m in Sources */,
 				84C340E8278BE8510049B8D3 /* main.m in Sources */,
 				84C340DA278BE84D0049B8D3 /* SceneDelegate.m in Sources */,
+				84F7E92E278C0FD100A65250 /* RouterItemCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +579,7 @@
 		};
 		84C34102278BE8510049B8D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFCE9FEF9406FCA2AFD2C11C /* Pods-ios_oc_routers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,7 +590,6 @@
 				INFOPLIST_FILE = ios_oc_routers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -466,6 +606,7 @@
 		};
 		84C34103278BE8510049B8D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FD60F1A8D6E5F60668EEAC /* Pods-ios_oc_routers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,7 +617,6 @@
 				INFOPLIST_FILE = ios_oc_routers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,6 +633,7 @@
 		};
 		84C34105278BE8510049B8D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31307FD6E798C1C2B7BF54FC /* Pods-ios_oc_routersTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +652,7 @@
 		};
 		84C34106278BE8510049B8D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6FF32A41AEB1D335B78609 /* Pods-ios_oc_routersTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +671,7 @@
 		};
 		84C34108278BE8510049B8D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68710B59D0CBFCEA24343F11 /* Pods-ios_oc_routers-ios_oc_routersUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -545,6 +688,7 @@
 		};
 		84C34109278BE8510049B8D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AED61B0D016BD036C834B49 /* Pods-ios_oc_routers-ios_oc_routersUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
